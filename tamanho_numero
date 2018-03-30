@@ -1,0 +1,9 @@
+#Mostra a quantidade de digitos
+def tamanho(n):
+    cont=1
+    while n>9:
+        n=n//10
+        cont=cont+1
+    return cont
+n=int(input('n'))
+print(tamanho(n))
